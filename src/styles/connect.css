@@ -1,0 +1,79 @@
+.connect-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.connect-image-cont {
+  width: 40%;
+}
+.connect-image-cont img {
+  width: 100%;
+}
+.connect-detail-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  /* margin-left: 30px; */
+}
+.connect-detail-cont h1 {
+  font-family: "Nexa Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 72px;
+  /* identical to box height, or 164% */
+
+  color: #130b46;
+}
+.connect-main-para {
+  font-family: "Nexa Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: start;
+  color: #130b46;
+}
+.connect-input-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+.connect-input-cont input {
+  width: 230px;
+  margin: 0px 38px 30px 0px;
+  padding: 15px 20px;
+  /* border-radius: 5px; */
+}
+.connect-input-cont textarea {
+  padding: 15px 20px;
+}
+/* .connect-input-cont input:hover {
+  background-color: #323b71a0;
+} */
+.checkbox-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.checkbox-cont p {
+  font-family: "Nexa Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px;
+  /* line-height: 22px; */
+  text-align: start;
+
+  color: rgba(50, 59, 113, 0.8);
+}

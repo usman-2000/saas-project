@@ -1,0 +1,91 @@
+.review-main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+.review-main-cont h1 {
+  /* heading */
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 114%;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* systemGrey/900 */
+
+  color: #212121;
+}
+.review-main-cont-para {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+
+  /* systemGrey/600 */
+
+  color: #757575;
+}
+.review-cont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.review-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px 10px 30px;
+}
+.review-card-para {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  width: 290px;
+  /* or 160% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+
+  /* systemGrey/800 */
+
+  color: #424242;
+}
+.reviewer-image {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.reviewer-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13 px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+
+  /* systemGrey/600 */
+
+  color: #757575;
+}
